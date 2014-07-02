@@ -1,0 +1,1 @@
+On windows, and environment variable may be used to specify what configuration file to use when invoking perltidy.
