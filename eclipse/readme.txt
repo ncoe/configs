@@ -1,1 +1,0 @@
-These files can be loaded, or referenced from eclipse without needing to be moved.

@@ -17,7 +17,7 @@ http://sourceforge.net/donate/index.php?group_id=95717
         <LexerType name="actionscript" desc="ActionScript" ext="">
             <!--
             <WordsStyle name="DIRECTIVE" styleID="19" fgColor="A001D6" bgColor="000000" fontName="" fontStyle="1" fontSize="" keywordClass="instre2" />
-            -->
+			-->
             <WordsStyle name="DEFAULT" styleID="11" fgColor="FFFFFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="FUNCTION" styleID="20" fgColor="95004A" bgColor="000000" fontName="" fontStyle="0" fontSize="" keywordClass="type2" />
             <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="EDF8F9" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
@@ -226,25 +226,27 @@ http://sourceforge.net/donate/index.php?group_id=95717
         </LexerType>
         <LexerType name="d" desc="D" ext="di">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="FFFFFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="IDENTIFIER" styleID="14" fgColor="FFFFFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="INSTRUCTION WORD" styleID="6" fgColor="0000FF" bgColor="000000" fontName="" fontStyle="1" fontSize="" keywordClass="instre1">immutable nothrow pure ref shared</WordsStyle>
-            <WordsStyle name="KEWORD1" styleID="7" fgColor="00FFFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" keywordClass="instre2">__traits __FILE__ __MODULE__ __LINE__ __FUNCTION__ __PRETTY_FUNCTION__ __ctfe $</WordsStyle>
-            <WordsStyle name="KEWORD2" styleID="8" fgColor="FFFFFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
-            <WordsStyle name="KEWORD3" styleID="9" fgColor="FFFFFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" keywordClass="type2" />
-            <WordsStyle name="KEWORD4" styleID="20" fgColor="FFFFFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" keywordClass="type3" />
-            <WordsStyle name="KEWORD5" styleID="21" fgColor="FFFFFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" keywordClass="type4" />
-            <WordsStyle name="KEWORD6" styleID="22" fgColor="FFFFFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" keywordClass="type5" />
-            <WordsStyle name="NUMBER" styleID="5" fgColor="FF8000" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="STRING" styleID="10" fgColor="FF0000" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="CHARACTER" styleID="12" fgColor="FF0000" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="OPERATOR" styleID="13" fgColor="FF80C0" bgColor="000000" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="COMMENT" styleID="1" fgColor="008000" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008000" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT DOC" styleID="3" fgColor="008080" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT NESTED" styleID="4" fgColor="008080" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT LINE DOC" styleID="15" fgColor="008080" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT DOC KEYWORD" styleID="16" fgColor="008080" bgColor="000000" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="17" fgColor="008080" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="IDENTIFIER" styleID="14" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="INSTRUCTION WORD" styleID="6" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="KEWORD1" styleID="7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
+            <WordsStyle name="KEWORD2" styleID="8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
+            <WordsStyle name="KEWORD3" styleID="9" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" keywordClass="type2" />
+            <WordsStyle name="KEWORD4" styleID="20" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" keywordClass="type3" />
+            <WordsStyle name="KEWORD5" styleID="21" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" keywordClass="type4" />
+            <WordsStyle name="KEWORD6" styleID="22" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" keywordClass="type5" />
+            <WordsStyle name="NUMBER" styleID="5" fgColor="FF8000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING" styleID="10" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CHARACTER" styleID="12" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="13" fgColor="000080" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT DOC" styleID="3" fgColor="008080" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT NESTED" styleID="4" fgColor="008080" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT LINE DOC" styleID="15" fgColor="008080" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT DOC KEYWORD" styleID="16" fgColor="008080" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="17" fgColor="008080" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING B" styleID="18" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING R" styleID="19" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="diff" desc="DIFF" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="FFFFFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
@@ -361,32 +363,10 @@ http://sourceforge.net/donate/index.php?group_id=95717
             <WordsStyle name="COMMENTLINE" styleID="43" fgColor="00FF00" bgColor="000000" fontName="" fontStyle="2" fontSize="" />
             <WordsStyle name="COMMENTDOC" styleID="44" fgColor="772CB7" bgColor="070707" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
-        <LexerType name="json" desc="JSON" ext="">
-            <WordsStyle name="DEFAULT" styleID="0" fgColor="FFFFFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="IDENTIFIER" styleID="14" fgColor="FFFFFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="INSTRUCTION WORD" styleID="6" fgColor="0000FF" bgColor="000000" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
-            <WordsStyle name="KEWORD1" styleID="7" fgColor="FFFFFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
-            <WordsStyle name="KEWORD2" styleID="8" fgColor="FFFFFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
-            <WordsStyle name="KEWORD3" styleID="9" fgColor="FFFFFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" keywordClass="type2" />
-            <WordsStyle name="KEWORD4" styleID="20" fgColor="FFFFFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" keywordClass="type3" />
-            <WordsStyle name="KEWORD5" styleID="21" fgColor="FFFFFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" keywordClass="type4" />
-            <WordsStyle name="KEWORD6" styleID="22" fgColor="FFFFFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" keywordClass="type5" />
-            <WordsStyle name="NUMBER" styleID="5" fgColor="FF8000" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="STRING" styleID="10" fgColor="FF0000" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="CHARACTER" styleID="12" fgColor="FF0000" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="OPERATOR" styleID="13" fgColor="FF80C0" bgColor="000000" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="COMMENT" styleID="1" fgColor="008000" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008000" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT DOC" styleID="3" fgColor="008080" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT NESTED" styleID="4" fgColor="008080" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT LINE DOC" styleID="15" fgColor="008080" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT DOC KEYWORD" styleID="16" fgColor="008080" bgColor="000000" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="17" fgColor="008080" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
-        </LexerType>
         <LexerType name="kix" desc="KiXtart" ext="">
             <!--
             <WordsStyle name="" styleID="0" fgColor="FFFFFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
-            -->
+		-->
             <WordsStyle name="DEFAULT" styleID="31" fgColor="FFFFFF" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="00FF00" bgColor="000000" fontName="" fontStyle="2" fontSize="" />
             <WordsStyle name="STRING" styleID="2" fgColor="66FF00" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
